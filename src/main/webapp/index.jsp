@@ -61,7 +61,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Bienvenido a tu primer proyecto en Codenvy</title>
+        <title>Bienvenido a Codenvy</title>
         <style>
           
             table {
@@ -86,11 +86,11 @@
         <% if (error == null) { %>
             <div align="center">
                 <center>
-                <h1>Hello Codenvy</h1>
+                <h1>Bienvenido a tu primer proyecto en Codenvy</h1>
                 <br>
                 <hr>
                 <br>
-                Today's date is <%= dateNow %>
+                La fecha de hoy es <%= dateNow %>
                 <br>
                 <br>
                 <% if (lastAccess == null) { %>
